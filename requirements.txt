@@ -1,0 +1,4 @@
+openai-agents
+protobuf
+PyYAML
+vllm[flashinfer]==0.10.1.1

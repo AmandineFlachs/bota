@@ -1,0 +1,11 @@
+--- "dota_custom.sh"	2025-09-07 16:03:32.500442168 +0100
++++ "dota_custom.sh"	2025-09-01 14:13:43.501184897 +0100
+@@ -112,7 +112,7 @@
+ 	elif [ "${GAME_DEBUGGER}" == "lldb" ]; then
+ 		${GAME_DEBUGGER} "${GAMEROOT}"/${GAMEEXE} -- $@
+ 	else
+-		${STEAM_RUNTIME_PREFIX} ${GAME_DEBUGGER} "${GAMEROOT}"/${GAMEEXE}
++		${STEAM_RUNTIME_PREFIX} ${GAME_DEBUGGER} "${GAMEROOT}"/${GAMEEXE} +sv_cheats 1 +sv_hibernate_when_empty 0 +sv_lan 1 -botworldstatesocket_threaded -dev -console -insecure -fill_with_bots -botworldstatetosocket_frames 10 -con_logfile scripts/vscripts/bots/log.txt +map start gamemode 21 +dota_1v1_skip_strategy 1 -botworldstatetosocket_radiant 8100 -botworldstatetosocket_dire 8101
+ 	fi
+ 	STATUS=$?
+ done

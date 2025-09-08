@@ -1,0 +1,31 @@
+steam_library_path: ~/.steam/steam/
+radiant:
+  address: 0.0.0.0
+  port: 8100
+  control:
+    - AGENT
+    - EMPTY
+    - EMPTY
+    - EMPTY
+    - EMPTY
+  heroes:
+    - npc_dota_hero_queenofpain
+    - npc_dota_hero_nevermore
+    - npc_dota_hero_nevermore
+    - npc_dota_hero_nevermore
+    - npc_dota_hero_nevermore
+dire:
+  address: 0.0.0.0
+  port: 8101
+  control:
+    - BOT
+    - EMPTY
+    - EMPTY
+    - EMPTY
+    - EMPTY
+  heroes:
+    - npc_dota_hero_queenofpain
+    - npc_dota_hero_nevermore
+    - npc_dota_hero_nevermore
+    - npc_dota_hero_nevermore
+    - npc_dota_hero_nevermore
