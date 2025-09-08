@@ -12,6 +12,7 @@ Our agent is written in Python and interacts with Dota 2 via 2 mechanisms: a soc
 ├── assets
 │   ├── architecture.png
 │   ├── logo.png
+│   ├── screenshot.png
 │   └── video-thumbnail.png
 ├── bot_generic.lua
 ├── config.yaml
